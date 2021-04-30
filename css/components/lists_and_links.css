@@ -5,3 +5,7 @@
 .list-bullet p {
   padding-left: 33px;
 }
+
+ .link-neutral {
+  text-decoration: none;
+ }
