@@ -1,0 +1,55 @@
+
+.btn-blanc {
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #008090;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1.5px solid white;
+}
+
+.btn-blanc:hover {
+  border: 4px solid white;
+}
+
+.btn-blanc:active {
+  background-color: white;
+  color: grey;
+}
+
+.btn-foncé {
+  text-decoration: none;
+  font-weight: 600;
+  background-color: #384145;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+.btn-foncé:hover {
+  box-shadow: 2px 2px 3px rgb(200,200,200);
+}
+
+.btn-foncé:active {
+  background-color: white;
+  color: grey;
+}
+
+.btn-gris {
+  margin-top: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #384145;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1.5px solid #384145;
+}
+
+.btn-gris:hover {
+  border: 4px solid #384145;
+}
+
+.btn-gris:active {
+  background-color: #384145;
+  color: white;

@@ -1,0 +1,18 @@
+.table-center {
+  margin: auto auto;
+  width: 80%;
+
+}
+
+.table-center td {
+  text-align: center;
+  padding: 13px 0px;
+}
+
+.table-left {
+  text-align: left;
+}
+
+.table-color {
+  color: #008090;
+}

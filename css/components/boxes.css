@@ -1,0 +1,59 @@
+.card {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  break-after: left;
+}
+
+figcaption {
+  color: #008090;
+}
+
+.card ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: column wrap;
+  opacity: 1;
+  width: 300px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  box-shadow: 2px 2px 3px rgb(200,200,200);
+}
+
+.card ul:hover {
+  box-shadow: 1px 2px 2px 3px rgb(200,200,200);
+}
+
+.card p {
+  color: #0eb590;
+}
+
+.card h3 {
+  color: #008090;
+}
+
+.card h5 {
+  color: #5f6f75;
+  font-weight: lighter;
+}
+
+.photo-square {
+  height: 180px;
+  width: 200px;
+  padding-top: 10px;
+}
+
+.photo-rond {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.section-box {
+  margin-top: 70px;
+  text-align: center;
+}

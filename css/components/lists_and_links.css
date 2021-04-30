@@ -1,0 +1,7 @@
+.list-bullet {
+  list-style: none;
+}
+
+.list-bullet p {
+  padding-left: 33px;
+}

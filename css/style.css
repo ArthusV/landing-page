@@ -1,0 +1,62 @@
+@import url("components/boxes.css");
+@import url("components/button.css");
+@import url("components/header_and_footer.css");
+@import url("components/lists_and_links.css");
+@import url("components/navbar.css");
+@import url("components/table.css");
+@import url("components/media.css");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Open sans;
+  font-size: 22px;
+  background-color: white;
+  color: rgb(120,120,120);
+  opacity: 0.9;
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+h2 {
+  color: #008090;
+}
+
+.text_with_image {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  break-after: left;
+}
+
+#text-block {
+  padding-bottom: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 35%;
+  width: 40%;
+}
+
+#text-block h2 h4 ul li p {
+  padding: 0;
+}
+
+#text-block p {
+  font-size: 15px;
+}
+
+#text-block h4 {
+  font-size: 20px;
+}
+
+#text-left {
+  text-align: left;
+}
